@@ -70,7 +70,9 @@ if a >= b:
 ```
 El fragmento anterior se lee de la siguiente manera (Línea por línea):
 
+
 ```
+
 A la letra 'a' le asigno el valor de 93.
 A la letra 'b' le asigno el valor de 27.
 SI a(93) es mayor o igual a b(27) entonces:

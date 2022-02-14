@@ -55,6 +55,8 @@ Utiliza el siguiente comando para llamar al módulo ``venv``. El comando difiere
 En consola: 
 ``python3 -m venv env  ``
 
+`` python -m venv env ``
+
 Donde: 
 * python3: La versión de python a utilizar.
 * venv: Llamada al módulo ``venv`` conocido como virtual environment.
@@ -84,6 +86,7 @@ Así es como puede verse la activación en distintos sistemas operativos.
   # Bash | Consola
   # Windows
   env\bin\activate
+  env\Scripts\activate directo en consola
 
   # Linux, WSL o macOS
   source env/bin/activate
@@ -193,3 +196,14 @@ Redes:
 * GitHub: [FernandaOchoa](https://github.com/FernandaOchoa)
 * Twitter: [@imonsh](https://twitter.com/imonsh)
 * Instagram: [fherz8a](https://www.instagram.com/fherz8a/)
+
+
+```
+Estos comandos me ayudaron pero solo desde la cmd
+pip install virtualenv
+python -md venv env
+env\Scripts\activate
+deactivate
+
+python app.py
+```

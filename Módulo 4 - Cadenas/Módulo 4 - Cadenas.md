@@ -31,6 +31,7 @@ En nuestro ejemplo para este módulo, tienes un solo hecho sobre la Luna que est
 fact = 'The Moon has no atmosphere.'
 fact + 'No sound can be heard on the Moon.'
 ```
+
 *Salida: 'The Moon has no atmosphere.No sound can be heard on the Moon.'*
 
 Aunque puede parecer que hemos modificado la variable ``fact``, una comprobación rápida del valor revela que el valor original no ha cambiado:
